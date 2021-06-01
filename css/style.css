@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+h1 {
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #743e00;
+}
+
+h2 {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #743e00;
+    text-align: center;
+}
+
+.insta {
+    margin-top: 700px;
+}
+
+.header {
+    height: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-div {
+    width: 70%;
+    height: auto;
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.nav {
+    width: 33%;
+    position: fixed;
+    left: 0px;
+}
+
+.nav-item {
+    margin: 20px;
+    text-align: center;
+    color: #743e00;
+
+
+
+}
+
+.photo-column {
+    width: 66%;
+    height: auto;
+    margin-right: 50px;
+    margin-left: 33%;
+}
+
+.photo-grid-item {
+    width: 100%;
+    height: 200px;
+    background-image: url('group1.jpg');
+    margin: 10px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 0px 20px 20px 0px;
+}
